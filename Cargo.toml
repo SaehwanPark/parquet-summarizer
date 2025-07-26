@@ -1,0 +1,12 @@
+[package]
+name = "parquet-summarizer"
+version = "0.1.0"
+edition = "2024"
+authors = ["Sae-Hwan Park"]
+description = "CLI tool to summarize Parquet datasets"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+polars = { version = "0.49", features = ["lazy", "parquet"] }
+anyhow = "1"
