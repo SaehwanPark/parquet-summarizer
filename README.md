@@ -24,13 +24,19 @@ cargo run -- --help
 ## Features
 
 ✅ **Smart Data Type Detection**: Automatically identifies numerical vs categorical columns
+
 ✅ **Efficient Memory Usage**: Uses Polars lazy loading and optional streaming for large files
+
 ✅ **Comprehensive Statistics**:
   - Numerical: mean, standard deviation, IQR (Q1, Q3)
   - Categorical: frequency tables with percentages
+
 ✅ **Flexible Output**: Print to stdout or save to file
+
 ✅ **Large File Support**: Low memory mode for reduced memory usage
+
 ✅ **Configurable**: Adjustable categorical threshold
+
 ✅ **Error Handling**: Robust error handling with helpful messages
 
 ## Smart Strategies for Large Files
