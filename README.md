@@ -18,7 +18,7 @@ cargo run -- large_data.parquet --low-memory
 cargo run -- data.parquet --categorical-threshold 5
 
 # Show help
-cargo run -- --help
+cargo run --help
 ```
 
 ## Features
